@@ -3,3 +3,4 @@
 <p><b>simple_interest.py:</b> This python script calculates the simple interest of a given principal amount</p>
 <p><b>rectangle_area.py:</b> This python script calculates the area of a rectangle</p>
 <p><b>hour_to_seconds.py:</b> This python script converts hours to seconds</p>
+<p><b>future_age_calculator:</b> This python script calculates how old the user will be in 27 years time</p>
