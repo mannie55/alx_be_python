@@ -1,4 +1,4 @@
-number = int(input("Enter a number to see its multiplication table: "))
+number = int(input("Enter the size of the pattern: "))
 i = 0
 
 while i <= number:
@@ -6,7 +6,4 @@ while i <= number:
         num += 1
         print("*", end="")
     i += 1
-    if i == number:
-        break
-    else:
-        print()
+    print()
