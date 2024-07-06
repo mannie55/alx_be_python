@@ -1,10 +1,10 @@
 from datetime import datetime
 from datetime import timedelta
 
-def current_date_time():
+def display_current_datetime():
     current = datetime.now()
     print(f"Current date and time: {current.year}-{current.month:02d}-{current.day:02d} {current.hour:02d}:{current.minute:02d}:{current.second:02d}")
-current_date_time()
+display_current_datetime()
 
 
 add_day = int(input("Enter the number of days to add to the current date: "))
