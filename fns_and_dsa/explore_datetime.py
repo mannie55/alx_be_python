@@ -4,6 +4,7 @@ def display_current_datetime():
     current = datetime.now()
     format_date_time = current.strftime("%Y-%m-%d %H:%M:%S")
     print(f"Current date and time: {format_date_time}")
+    
 display_current_datetime()
 
 
@@ -14,5 +15,6 @@ def calculate_future_date():
     current_date = now.date()
     delta = timedelta(days = add_day)
     future_date = current_date + delta
-    print(future_date)
+    format_date = future_date.strftime("%Y-%m-%d")
+    print(format_date)
 calculate_future_date()
