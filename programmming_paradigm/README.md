@@ -1,1 +1,0 @@
-<h1>Programming Paradigms<h1>
